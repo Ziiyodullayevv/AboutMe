@@ -1,0 +1,15 @@
+.about {
+  margin-top: 10rem;
+}
+
+.about-title {
+  letter-spacing: 1px;
+  color: var(--gold);
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.about-cards {
+  margin-top: 2rem;
+}
