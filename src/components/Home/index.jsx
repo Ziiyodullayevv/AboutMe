@@ -7,12 +7,12 @@ const Home = () => {
   const textAnimationY = {
     hidden: {
       y: 100,
-      opacity: 1,
+      opacity: 0,
     },
     visible: (custom) => ({
       y: 0,
       opacity: 1,
-      transition: { delay: custom },
+      transition: { delay: custom, duration: 0.5 },
     }),
   };
 
@@ -26,7 +26,7 @@ const Home = () => {
       y: 0,
       opacity: 1,
       scale: 1,
-      transition: { delay: custom },
+      transition: { delay: custom, duration: 0.5 },
     }),
   };
   return (
@@ -38,7 +38,7 @@ const Home = () => {
             variants={textAnimationY}
             className="home-title"
           >
-            alex group
+            Hi there!
           </motion.div>
         </div>
         <div className="home-cards">

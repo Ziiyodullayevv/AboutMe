@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./style.css";
 import { motion, useScroll, useSpring } from "framer-motion";
-
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import Home from "../Home";
 import About from "../About";
+import LianerScroll from "../LianerScroll";
 
 const GlobalStyles = createGlobalStyle`
     body {
@@ -78,6 +78,7 @@ const Navbar = () => {
       {/* home section  */}
       <Home />
       <About />
+      <LianerScroll />
     </ThemeProvider>
   );
 };
