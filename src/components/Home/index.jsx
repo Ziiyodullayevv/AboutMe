@@ -1,9 +1,10 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./style.css";
 import about from "../../assets/image/showreel.png";
 import { motion } from "framer-motion";
 
-const Home = () => {
+const Home = forwardRef((props, ref) => {
+  console.log(props, ref);
   const textAnimationY = {
     hidden: {
       y: 100,
@@ -43,7 +44,11 @@ const Home = () => {
         </div>
         <div className="home-cards">
           <div className="home-card-left">
-            <motion.div custom={0.6} variants={textAnimationS}>
+            <motion.div
+              onClick={() => ref.current.open()}
+              custom={0.6}
+              variants={textAnimationS}
+            >
               <div className="home-card-left__box">
                 <img src={about} alt="aboutMe" />
                 <h4>
@@ -65,17 +70,17 @@ const Home = () => {
             <div className="hidden">
               <div className="hidden">
                 <motion.h3 custom={0.7} variants={textAnimationY}>
-                  Oldinga qadam qo'ying
+                  My name is
                 </motion.h3>
               </div>
               <div className="hidden">
                 <motion.h3 custom={0.8} variants={textAnimationY}>
-                  gorizontlar
+                  Akobir
                 </motion.h3>
               </div>
               <div className="hidden">
                 <motion.h3 custom={0.9} variants={textAnimationY}>
-                  rivojlanish
+                  Ziyodullayev
                 </motion.h3>
               </div>
             </div>
@@ -84,6 +89,6 @@ const Home = () => {
       </motion.section>
     </div>
   );
-};
+});
 
 export default Home;

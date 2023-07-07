@@ -52,4 +52,73 @@ body {
 /* font-family: 'Bebas Neue', sans-serif; */
 
 .container-100 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.global-title {
+  font-size: 1.5rem;
+  color: var(--gold);
+  font-weight: 500;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+}
+
+/* my work  */
+
+.my-work {
+  margin-top: 8rem;
+}
+
+.my-work-cards {
+  margin-top: 3rem;
+}
+
+.my-work-card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-image {
+  max-width: 22rem;
+  max-height: 12rem;
+  overflow: hidden !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s linear;
+}
+
+.card-image:hover {
+  transform: scale(0.96) !important;
+  cursor: pointer;
+}
+
+.card-image:hover img {
+  transform: scale(1.3);
+  transition: all 0.4s linear;
+}
+
+.card-description h3 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: -2px;
+  opacity: 0.7 !important;
+  margin-bottom: -20px;
+}
+
+.card-description p {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--gold);
+  z-index: 34;
+}
+
+.right {
+  justify-content: end;
+  flex-direction: row-reverse;
 }

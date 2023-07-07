@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./style.css";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import Home from "../Home";
 import About from "../About";
-import LianerScroll from "../LianerScroll";
-
+import Modal from "../Modal";
+import MyWorkLeft from "../MyWorkLeft";
 const GlobalStyles = createGlobalStyle`
     body {
         background: ${(props) => props.theme.background};
@@ -14,13 +14,16 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 const Navbar = () => {
+  const modalRef = useRef();
+
+  // dark-light mode:
   const [light, setLeght] = useState(false);
   const toggleSwitch = () => setLeght(!light);
 
   // styled-componets:
   const theme = {
-    background: light ? "white" : "#121212",
-    color: light ? "black" : "white",
+    background: light ? "black" : "white",
+    color: light ? "white" : "black",
   };
 
   // framer motion:
@@ -51,20 +54,24 @@ const Navbar = () => {
           className="container-header"
         >
           <div className="header">
+            {/* logo: */}
             <div className="header__logo">
               <img src="" alt="" />
-              <i class="square fa fa-square"></i>
-
+              <i className="square fa fa-square"></i>
               <div>
                 <h4 className="logo-title">Akobir</h4>
                 <h5 className="logo-description">Ziyodullayev</h5>
               </div>
             </div>
+
+            {/* button: */}
             <div className="header-btn">
-              <div className="switch" data-isOn={light} onClick={toggleSwitch}>
+              <div className="switch" data-ison={light} onClick={toggleSwitch}>
                 <motion.div className="handle" layout transition={spring} />
               </div>
             </div>
+
+            {/* navbar: */}
             <div className="header-navigation">
               <div className="bars-wrapper">
                 <div className="lianer active"></div>
@@ -76,9 +83,10 @@ const Navbar = () => {
       </div>
 
       {/* home section  */}
-      <Home />
+      <Home ref={modalRef} />
       <About />
-      <LianerScroll />
+      <Modal ref={modalRef}>Hello world</Modal>
+      <MyWorkLeft />
     </ThemeProvider>
   );
 };
