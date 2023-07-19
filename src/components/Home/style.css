@@ -14,29 +14,29 @@
 .home-cards {
   margin-top: 2rem;
   display: flex;
-  justify-content: start;
-  gap: 5rem;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .home-card-left__box {
   width: 438px;
   height: 300px;
   overflow: hidden;
-  transition: all 0.6s ease;
+  transition: all 0.4s linear;
   position: relative;
 }
 
 .home-card-left__box:hover {
-  transform: scale(0.9);
+  transform: scale(0.94);
   cursor: pointer;
 }
 
 img {
-  transition: all 0.5s ease;
+  transition: all 0.4s linear;
 }
 .home-card-left__box:hover img {
-  transform: scale(1.2) !important;
-  transition: all 0.6s ease;
+  transform: scale(1.16) !important;
+  transition: all 0.4s linear;
 }
 
 .home-card-left__box h4 {
@@ -68,7 +68,7 @@ img {
   font-size: 1.2rem;
   letter-spacing: 1px;
   font-weight: 500;
-  margin-bottom: 3.1rem;
+  margin-bottom: 2.5rem;
 }
 
 .home-card-right h3 {

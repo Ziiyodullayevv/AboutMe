@@ -31,7 +31,7 @@ const Home = forwardRef((props, ref) => {
     }),
   };
   return (
-    <div className="container-body">
+    <div id="about" className="container-body">
       <motion.section initial="hidden" whileInView={"visible"} className="home">
         <div className="hidden">
           <motion.div
@@ -52,7 +52,7 @@ const Home = forwardRef((props, ref) => {
               <div className="home-card-left__box">
                 <img src={about} alt="aboutMe" />
                 <h4>
-                  <i className="fa fa-play"></i> About Me
+                  <i className="fa fa-play"></i>Read More
                 </h4>
               </div>
             </motion.div>
@@ -64,23 +64,23 @@ const Home = forwardRef((props, ref) => {
                 variants={textAnimationY}
                 className="home-card-right__title"
               >
-                Biz haqimizda faktlar
+                About me
               </motion.h4>
             </div>
             <div className="hidden">
               <div className="hidden">
                 <motion.h3 custom={0.7} variants={textAnimationY}>
-                  My name is
+                  My name is Akobir
                 </motion.h3>
               </div>
               <div className="hidden">
                 <motion.h3 custom={0.8} variants={textAnimationY}>
-                  Akobir
+                  I am junior
                 </motion.h3>
               </div>
               <div className="hidden">
                 <motion.h3 custom={0.9} variants={textAnimationY}>
-                  Ziyodullayev
+                  front-end developer
                 </motion.h3>
               </div>
             </div>

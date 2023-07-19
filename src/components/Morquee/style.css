@@ -1,0 +1,24 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 250px;
+  margin: 17px;
+}
+
+.slider-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.react-icons {
+  font-size: 60px;
+}
+
+.top {
+  margin-top: 8rem;
+}

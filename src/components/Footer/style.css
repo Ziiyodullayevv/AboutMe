@@ -1,0 +1,47 @@
+.footer {
+  margin: 10px 0;
+  font-size: 0.7rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  opacity: 0.8;
+  padding: 15px 0;
+  border-top: 1px solid var(--gold);
+}
+
+.name {
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.footer-card,
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footer-icon__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.footer-icon__card a {
+  color: red;
+}
+
+.icon-size {
+  font-size: 17px;
+  margin-top: 4px;
+}
+
+.icon-anchor {
+  color: white;
+}

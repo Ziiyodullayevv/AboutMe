@@ -1,5 +1,5 @@
 .about {
-  margin-top: 10rem;
+  padding-top: 10rem;
 }
 
 .about-title {
@@ -13,8 +13,8 @@
 .about-cards {
   margin-top: 2rem;
   display: flex;
-  justify-content: space-between;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
   gap: 2rem;
 }
 
@@ -29,4 +29,16 @@
 
 .top {
   margin-top: 8rem;
+}
+
+.about-card-1 {
+  width: 100%;
+}
+
+.about-card-2 {
+  width: 100%;
+}
+
+.about-card-3 {
+  width: 100%;
 }

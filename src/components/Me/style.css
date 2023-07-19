@@ -1,0 +1,24 @@
+.me-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.me-card p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 26px;
+  opacity: 0.8;
+}
+
+.parent-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 11502;
+  top: 100%;
+  margin: auto;
+}

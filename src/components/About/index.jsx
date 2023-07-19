@@ -15,7 +15,7 @@ const About = () => {
     }),
   };
   return (
-    <section className="about">
+    <section id="path" className="about">
       <div className="container-body">
         {/* about me part-1: */}
         <motion.div initial="hidden" whileInView={"visible"}>
@@ -24,8 +24,7 @@ const About = () => {
             variants={textAnimationY}
             className="about-title"
           >
-            BIZ BILAN ISHLASHDAN FAXRLANAMIZ. <br />
-            ULAR BIZ BILAN ISHLASH UCHUN PUL TEJASHADI.
+            ADUCATION AND TRAINING <br />
           </motion.h2>
 
           <motion.div
@@ -35,26 +34,27 @@ const About = () => {
           >
             <div className="about-card-1">
               <p className="about-card__description">
-                ALEX Group - bu o'z sohalarida <br />
-                etakchi bo'lgan kompaniyalar guruhi .
+                WEBBRAIN ACADEMY - Tashkent
+                <br />
+                Front-end development GROUP - G10
               </p>
             </div>
 
             <div className="about-card-2">
               <p className="about-card__description opacity">
-                Biz biznesning barcha sohalarida loyihalarni <br />
-                amalga oshirishda muvaffaqiyatli tajribaga egamiz .
+                Collaborated effectively with team members
+                <br />
+                while maintaining strong sense of inividual responsibility.
               </p>
             </div>
 
             <div className="about-card-3">
               <p className="about-card__description opacity">
-                IT haqida bilgan hamma narsa va nafaqat - mobil <br />
-                ilovalar, biznesni avtomatlashtirish, <br />
-                veb-saytlarni sotish, ijtimoiy tarmoqlarda reklama <br />
-                (smm), qidiruv tizimlarida reklama (seo), <br />
-                brend-buklar, autsorsing, autstaffing, server <br />
-                uskunalari.
+                I got good experience and knowledge as a frontend developer in
+                training center and worked on many real projects. During the
+                in-depth lessons, I got very important information. It was very
+                useful for me to participate in a real project during a
+                1.5-month internship
               </p>
             </div>
           </motion.div>
@@ -69,27 +69,32 @@ const About = () => {
           >
             <div className="about-card-1">
               <motion.h2 className="about-title">
-                BIZ BILAN ISHLASHDAN FAXRLANAMIZ. <br />
-                ULAR BIZ BILAN ISHLASH UCHUN PUL TEJASHADI.
+                SKILLS <br />
               </motion.h2>
               <p className="about-card__description">
-                ALEX Group - bu o'z sohalarida <br />
-                etakchi bo'lgan kompaniyalar guruhi .
+                HTML, CSS, SASS, javaScript Expert <br />
+                ReactJS, Hooks, Styled-components <br />
+                Redux-toolkit, antd, materialUI, framer motion <br />
+                Restfull API, Fetch, Axios <br />
+                Git
               </p>
             </div>
 
             <div className="about-card-2">
               <motion.h2 className="about-title">
-                BIZ BILAN ISHLASHDAN FAXRLANAMIZ. <br />
-                ULAR BIZ BILAN ISHLASH UCHUN PUL TEJASHADI.
+                SOFT SKILLS <br />
               </motion.h2>
               <p className="about-card__description opacity">
-                IT haqida bilgan hamma narsa va nafaqat - mobil <br />
-                ilovalar, biznesni avtomatlashtirish, <br />
-                veb-saytlarni sotish, ijtimoiy tarmoqlarda reklama <br />
-                (smm), qidiruv tizimlarida reklama (seo), <br />
-                brend-buklar, autsorsing, autstaffing, server <br />
-                uskunalari.
+                Project Managament <br />
+                Distributed Technologies
+                <br />
+                Agile Development Methodologies
+                <br />
+                Problem-Solving
+                <br />
+                Communication <br />
+                Code Reviews <br />
+                Responsibility
               </p>
             </div>
           </motion.div>
@@ -104,28 +109,23 @@ const About = () => {
             className="about-cards top"
           >
             <div className="about-card-1">
-              <motion.h2 className="about-title">
-                BIZ BILAN ISHLASHDAN FAXRLANAMIZ. <br />
-                ULAR BIZ BILAN ISHLASH UCHUN PUL TEJASHADI.
-              </motion.h2>
+              <motion.h2 className="about-title">LANGUAGES</motion.h2>
               <p className="about-card__description">
-                ALEX Group - bu o'z sohalarida <br />
-                etakchi bo'lgan kompaniyalar guruhi .
+                UZBEK: First Languages <br />
+                ENGLISH: Elementary <br />
+                RUSSION: Elementary
               </p>
             </div>
 
             <div className="about-card-2">
               <motion.h2 className="about-title">
-                BIZ BILAN ISHLASHDAN FAXRLANAMIZ. <br />
-                ULAR BIZ BILAN ISHLASH UCHUN PUL TEJASHADI.
+                SUMMARY <br />
               </motion.h2>
               <p className="about-card__description opacity">
-                IT haqida bilgan hamma narsa va nafaqat - mobil <br />
-                ilovalar, biznesni avtomatlashtirish, <br />
-                veb-saytlarni sotish, ijtimoiy tarmoqlarda reklama <br />
-                (smm), qidiruv tizimlarida reklama (seo), <br />
-                brend-buklar, autsorsing, autstaffing, server <br />
-                uskunalari.
+                Junior Plus Web Developer specializing in front-end development.
+                Experienced with all stages of development cycle for dynamic web
+                projects. Well-versed in javaScript and ReactJS. Strong
+                background in management and leadership
               </p>
             </div>
           </motion.div>

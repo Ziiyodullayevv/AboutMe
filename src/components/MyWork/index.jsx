@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import image from "../../assets/image/showreel.png";
+import heart from "../../assets/image/heart-original.png";
+import turkish from "../../assets/image/turkish.png";
 
 const MyWorkLeft = () => {
   const textAnimationY = {
@@ -29,7 +31,7 @@ const MyWorkLeft = () => {
     }),
   };
   return (
-    <section className="my-work">
+    <section id="my-work" className="my-work">
       <div className="container-body">
         <motion.div initial="hidden" whileInView={"visible"}>
           <div className="hidden">
@@ -56,7 +58,7 @@ const MyWorkLeft = () => {
               <motion.div initial={"hidden"} whileInView={"visible"}>
                 <div className="hidden">
                   <motion.h3 custom={0.4} variants={textAnimationY}>
-                    Mariana Riondi
+                    Houzing Project
                   </motion.h3>
                 </div>
                 <div className="hidden">
@@ -65,7 +67,7 @@ const MyWorkLeft = () => {
                     custom={0.5}
                     variants={textAnimationY}
                   >
-                    frontend developer
+                    home sale
                   </motion.p>
                 </div>
               </motion.div>
@@ -87,7 +89,7 @@ const MyWorkLeft = () => {
               <motion.div initial={"hidden"} whileInView={"visible"}>
                 <div className="hidden">
                   <motion.h3 custom={0.4} variants={textAnimationY}>
-                    Mariana Riondi
+                    Fit-Club Project
                   </motion.h3>
                 </div>
                 <div className="hidden">
@@ -96,7 +98,7 @@ const MyWorkLeft = () => {
                     custom={0.5}
                     variants={textAnimationY}
                   >
-                    frontend developer
+                    sports related
                   </motion.p>
                 </div>
               </motion.div>
@@ -108,9 +110,13 @@ const MyWorkLeft = () => {
         <div className="my-work-cards">
           <div className="my-work-card">
             <motion.div initial={"hidden"} whileInView={"visible"}>
-              <a href="https://google.com">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://ziiyodullayevv.github.io/Heart"
+              >
                 <motion.div variants={textAnimationS} className="card-image">
-                  <img className="img" src={image} alt="works" />
+                  <img className="img" src={heart} alt="works" />
                 </motion.div>
               </a>
             </motion.div>
@@ -118,7 +124,7 @@ const MyWorkLeft = () => {
               <motion.div initial={"hidden"} whileInView={"visible"}>
                 <div className="hidden">
                   <motion.h3 custom={0.4} variants={textAnimationY}>
-                    Mariana Riondi
+                    Gainioz Project
                   </motion.h3>
                 </div>
                 <div className="hidden">
@@ -127,7 +133,7 @@ const MyWorkLeft = () => {
                     custom={0.5}
                     variants={textAnimationY}
                   >
-                    frontend developer
+                    support
                   </motion.p>
                 </div>
               </motion.div>
@@ -141,7 +147,7 @@ const MyWorkLeft = () => {
             <motion.div initial={"hidden"} whileInView={"visible"}>
               <a href="https://google.com">
                 <motion.div variants={textAnimationS} className="card-image">
-                  <img className="img" src={image} alt="works" />
+                  <img className="img" src={turkish} alt="works" />
                 </motion.div>
               </a>
             </motion.div>
@@ -149,7 +155,7 @@ const MyWorkLeft = () => {
               <motion.div initial={"hidden"} whileInView={"visible"}>
                 <div className="hidden">
                   <motion.h3 custom={0.4} variants={textAnimationY}>
-                    Mariana Riondi
+                    Texna Project
                   </motion.h3>
                 </div>
                 <div className="hidden">
@@ -158,7 +164,7 @@ const MyWorkLeft = () => {
                     custom={0.5}
                     variants={textAnimationY}
                   >
-                    frontend developer
+                    technologies
                   </motion.p>
                 </div>
               </motion.div>
