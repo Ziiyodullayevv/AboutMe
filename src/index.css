@@ -30,20 +30,23 @@ html {
 body {
   font-weight: 700;
   font-family: "Proxima", sans-serif;
-  height: 4000px;
   transition: all 0.2s ease;
+}
+
+ul li {
+  list-style: none;
 }
 
 .container-header {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 .container-body {
-  max-width: 1440px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 0 200px;
+  padding: 0 50px;
 }
 
 .hamburger {
@@ -133,4 +136,211 @@ body {
 
 a {
   text-decoration: none;
+}
+
+/* button style  */
+
+.btn-universal {
+  font-weight: 500;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 0.9rem;
+  background-color: black;
+  width: 100px;
+  height: 45px;
+  color: white;
+  border: none;
+  margin-top: 2rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.btn-universal.p {
+  margin-top: 10px;
+}
+
+.btn-universal:hover {
+  cursor: pointer;
+}
+
+.btn-universal:hover .gold-shadow {
+  top: 0;
+}
+
+.gold-shadow {
+  top: 200px;
+  z-index: -2;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  background-color: var(--gold);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1250px) {
+  :root {
+    font-size: 16px;
+  }
+  .container-body {
+    max-width: 1440px;
+    padding: 0 120px;
+  }
+}
+
+/* ---------------------------------------------------- */
+
+@media screen and (max-width: 1050px) {
+  .read-more {
+    padding: 0 50px;
+  }
+  .global-title.padd {
+    padding: 0 50px;
+  }
+  .me-cards {
+    padding: 0 150px;
+  }
+  .container-body {
+    padding: 0 50px;
+  }
+  .home {
+    padding-top: 100px !important;
+  }
+
+  .home-cards {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .home-card-right__title {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .home-card-left__box {
+    width: 100% !important;
+  }
+
+  .about-cards {
+    flex-direction: column;
+  }
+
+  .card-description h3 {
+    font-size: 3.4rem;
+  }
+
+  .about {
+    padding-top: 10px !important;
+  }
+
+  .top {
+    margin-top: 3rem !important;
+  }
+
+  .my-work {
+    padding-top: 4rem !important;
+  }
+
+  .contact {
+    padding-top: 4rem !important;
+  }
+}
+
+/* ---------------------------------------- */
+
+@media screen and (max-width: 999px) {
+  .read-more {
+    flex-direction: column-reverse;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .arrow {
+    top: 20px !important;
+    left: 20px !important;
+  }
+  .me-cards {
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 200px !important;
+  }
+  .my-work-card {
+    flex-direction: column-reverse;
+    align-items: start;
+    width: 100% !important;
+  }
+
+  .card-image {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .contact-card__user {
+    flex-direction: column;
+  }
+
+  .slider {
+    width: 180px !important;
+    height: 100px !important;
+    margin: 10px !important;
+  }
+
+  .react-icons {
+    font-size: 50px !important;
+  }
+
+  .slider-card {
+    gap: 0rem !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  :root {
+    font-size: 14px;
+  }
+  .container-header {
+    padding: 10px;
+  }
+  .container-body {
+    padding: 0 10px;
+  }
+  .contact-card {
+    padding: 20px 10px !important;
+  }
+
+  .home-card-left__box {
+    height: 300px !important;
+  }
+
+  .slider {
+    width: 100px !important;
+    height: 50px !important;
+    margin: 10px !important;
+  }
+
+  .react-icons {
+    font-size: 30px !important;
+  }
+
+  .slider-card {
+    gap: 0rem !important;
+  }
+
+  .contact {
+    margin-bottom: 4rem !important;
+  }
+
+  .home-card-right h3 {
+    font-size: 2.3rem !important;
+  }
+
+  input {
+    margin-top: 5px !important;
+    padding: 5px !important;
+  }
 }

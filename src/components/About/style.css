@@ -1,5 +1,5 @@
 .about {
-  padding-top: 10rem;
+  padding-top: 100px;
 }
 
 .about-title {
@@ -11,7 +11,7 @@
 }
 
 .about-cards {
-  margin-top: 2rem;
+  margin-top: 20px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -28,10 +28,11 @@
 }
 
 .top {
-  margin-top: 8rem;
+  margin-top: 50px;
 }
 
 .about-card-1 {
+  overflow: hidden;
   width: 100%;
 }
 

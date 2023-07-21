@@ -22,19 +22,20 @@ const Me = () => {
       whileInView={"visible"}
       className="parent-card"
     >
-      <h4 className="global-title">About Me</h4>
-      <motion.div className="me-cards">
-        <div className="me-card">
+      <h4 className="global-title padd">About Me</h4>
+      <motion.div className="read-more">
+        <div className="read-more-card">
           <motion.p variants={textAnimationX}>
-            My name is Akbir. I am a Front-end developer and author of Houzing
+            My name is Akobir. I am a Front-end developer and author of Houzing
             website. I am dedicated to creating websites and interactive
             interfaces. One of my passions is making websites a better user
             experience. I try to create websites that allow me to improve my
             skills and offer. My goal is to make websites a better experience
-            for users and make it easier to learn Front-end programming. If you
-            want to contact me, you can write to akobirziyod2323@gmail.com by
-            e-mail
+            for users and make it easier to learn Front-end programming.
           </motion.p>
+          <button className="btn-universal p">
+            <span className="gold-shadow"></span>download cv
+          </button>
         </div>
         <div className="me-card">
           <div className="card-image">

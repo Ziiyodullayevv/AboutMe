@@ -1,14 +1,14 @@
-.me-cards {
+.read-more {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
 }
 
-.me-card p {
+.read-more-card p {
   margin-top: 20px;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 26px;
   opacity: 0.8;
 }

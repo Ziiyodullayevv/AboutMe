@@ -51,9 +51,9 @@ const Home = forwardRef((props, ref) => {
             >
               <div className="home-card-left__box">
                 <img src={about} alt="aboutMe" />
-                <h4>
+                <span className="read-me">
                   <i className="fa fa-play"></i>Read More
-                </h4>
+                </span>
               </div>
             </motion.div>
           </div>
