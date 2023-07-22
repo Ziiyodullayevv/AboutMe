@@ -117,8 +117,8 @@ const Navbar = () => {
             {/* logo: */}
             <div className="header__logo">
               <img
-                style={{ width: 150 }}
-                src={require("../../assets/icons/logo-png.png")}
+                style={{ width: 80 }}
+                src={require("../../assets/icons/logo-ziyo.png")}
                 alt=""
               />
               <div></div>

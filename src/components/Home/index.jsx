@@ -50,7 +50,7 @@ const Home = forwardRef((props, ref) => {
               variants={textAnimationS}
             >
               <div className="home-card-left__box">
-                <img src={about} alt="aboutMe" />
+                <img className="home-image" src={about} alt="aboutMe" />
                 <span className="read-me">
                   <i className="fa fa-play"></i>Read More
                 </span>

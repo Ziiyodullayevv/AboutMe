@@ -138,6 +138,10 @@ a {
   text-decoration: none;
 }
 
+.me-image {
+  width: 400px;
+}
+
 /* button style  */
 
 .btn-universal {
@@ -260,6 +264,9 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  .me-image {
+    width: 100% !important;
+  }
   .arrow {
     top: 20px !important;
     left: 20px !important;
@@ -267,7 +274,7 @@ a {
   .me-cards {
     flex-direction: column;
     gap: 3rem;
-    padding-top: 200px !important;
+    padding-top: 150px !important;
   }
   .my-work-card {
     flex-direction: column-reverse;
@@ -342,5 +349,62 @@ a {
   input {
     margin-top: 5px !important;
     padding: 5px !important;
+  }
+
+  .home-image {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .home-card-right__title {
+    margin: 20px 0 !important;
+  }
+
+  .footer-icon__card {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .icon-size {
+    font-size: 15px !important;
+  }
+
+  .header__logo {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  .header-btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  .header-navigation {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  .global-title.padd {
+    margin-top: 50px;
+    padding: 0 10px !important;
+  }
+
+  .read-more {
+    padding: 0px 10px !important;
+  }
+
+  .me-cards {
+    padding: 0 10px !important;
+  }
+
+  .arrow {
+    left: 10px !important;
+    top: 10px !important;
   }
 }

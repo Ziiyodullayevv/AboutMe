@@ -39,7 +39,7 @@ const Me = () => {
         </div>
         <div className="me-card">
           <div className="card-image">
-            <img style={{ width: "400px" }} src={me} alt="me img" />
+            <img className="me-image" src={me} alt="me img" />
           </div>
         </div>
       </motion.div>
