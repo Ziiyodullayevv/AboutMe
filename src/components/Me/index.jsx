@@ -34,7 +34,10 @@ const Me = () => {
             for users and make it easier to learn Front-end programming.
           </motion.p>
           <button className="btn-universal p">
-            <span className="gold-shadow"></span>download cv
+            <span className="gold-shadow"></span>
+            <a href="../../assets/image/webbrain.pdf" download="webbrain.pdf">
+              download
+            </a>
           </button>
         </div>
         <div className="me-card">
