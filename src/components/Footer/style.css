@@ -1,10 +1,9 @@
 .footer {
-  margin: 10px 0;
   font-size: 0.7rem;
   text-transform: capitalize;
   font-weight: 500;
   opacity: 0.8;
-  padding: 15px 0;
+  padding: 10px 0;
   border-top: 1px solid var(--gold);
 }
 
@@ -18,7 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .footer-icon__card {
@@ -31,10 +30,6 @@
   border-radius: 50%;
   margin: 0 auto;
   cursor: pointer;
-}
-
-.footer-icon__card a {
-  color: red;
 }
 
 .icon-size {
