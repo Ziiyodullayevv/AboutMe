@@ -16,6 +16,20 @@ const Me = () => {
     }),
   };
 
+  // CV download:
+
+  const PDF_FILE_URL = "http://localhost:3000/webbrain.pdf";
+
+  const downloadFileAtURL = (url) => {
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
+
   return (
     <motion.div
       initial="hidden"
@@ -33,11 +47,12 @@ const Me = () => {
             skills and offer. My goal is to make websites a better experience
             for users and make it easier to learn Front-end programming.
           </motion.p>
-          <button className="btn-universal p">
+          <button
+            onClick={() => downloadFileAtURL(PDF_FILE_URL)}
+            className="btn-universal p"
+          >
             <span className="gold-shadow"></span>
-            <a href="../../assets/image/webbrain.pdf" download="webbrain.pdf">
-              download
-            </a>
+            download
           </button>
         </div>
         <div className="me-card">
