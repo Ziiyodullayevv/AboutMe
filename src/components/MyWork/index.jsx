@@ -1,8 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import image from "../../assets/image/showreel.png";
-import heart from "../../assets/image/heart-original.png";
-import turkish from "../../assets/image/turkish.png";
+import fitClub from "../../assets/image/FIT_CLUB.png";
+import heart from "../../assets/image/heart.png";
+import turkish from "../../assets/image/turkish-original.png";
 
 const MyWorkLeft = () => {
   const textAnimationY = {
@@ -81,7 +82,7 @@ const MyWorkLeft = () => {
             <motion.div initial={"hidden"} whileInView={"visible"}>
               <a href="https://google.com">
                 <motion.div variants={textAnimationS} className="card-image">
-                  <img className="img" src={image} alt="works" />
+                  <img className="img" src={fitClub} alt="works" />
                 </motion.div>
               </a>
             </motion.div>

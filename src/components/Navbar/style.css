@@ -13,7 +13,7 @@
 
 .switch {
   width: 40px;
-  height: 23px;
+  height: 20px;
   border: 1px solid var(--gold);
   display: flex;
   align-items: center;
@@ -28,8 +28,8 @@
 }
 
 .handle {
-  width: 13px;
-  height: 13px;
+  width: 12px;
+  height: 12px;
   background-color: var(--gold);
   border-radius: 40px;
 }

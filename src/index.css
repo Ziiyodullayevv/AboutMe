@@ -14,6 +14,7 @@
 :root {
   font-size: 20px;
   --gold: #b99458;
+  --g1: #b9945845;
   --white: #fff;
   --black: #000;
   --backgroundWhite: #fefefe;
@@ -25,6 +26,19 @@ img {
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: 0.2vw;
+}
+
+html::-webkit-scrollbar {
+  width: 0.2vw;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--gold);
 }
 
 body {
@@ -51,6 +65,11 @@ ul li {
 
 .hamburger {
   width: 50px;
+}
+
+.footer-card,
+.footer-icons {
+  padding: 2px;
 }
 
 .hamburger path {
@@ -93,6 +112,8 @@ ul li {
 }
 
 .card-image {
+  border: 1px solid var(--g1);
+
   max-width: 22rem;
   max-height: 12rem;
   overflow: hidden !important;
@@ -415,3 +436,5 @@ a {
     padding: 0 10px !important;
   }
 }
+
+/* ------------- custom scrollbar --------------- */
