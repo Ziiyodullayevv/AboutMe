@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import image from "../../assets/image/showreel.png";
+import houzing from "../../assets/image/houzing.png";
+import yuksalish from "../../assets/image/yuksalish.png";
 import fitClub from "../../assets/image/FIT_CLUB.png";
 import heart from "../../assets/image/heart.png";
 import turkish from "../../assets/image/turkish-original.png";
@@ -51,7 +52,7 @@ const MyWorkLeft = () => {
             <motion.div initial={"hidden"} whileInView={"visible"}>
               <a href="https://google.com">
                 <motion.div variants={textAnimationS} className="card-image">
-                  <img className="img" src={image} alt="works" />
+                  <img className="img" src={houzing} alt="works" />
                 </motion.div>
               </a>
             </motion.div>
@@ -166,6 +167,41 @@ const MyWorkLeft = () => {
                     variants={textAnimationY}
                   >
                     technologies
+                  </motion.p>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </div>
+
+        {/* start */}
+        <div className="my-work-cards">
+          <div className="my-work-card">
+            <motion.div initial={"hidden"} whileInView={"visible"}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://ziiyodullayevv.github.io/Heart"
+              >
+                <motion.div variants={textAnimationS} className="card-image">
+                  <img className="img" src={yuksalish} alt="works" />
+                </motion.div>
+              </a>
+            </motion.div>
+            <div className="card-description">
+              <motion.div initial={"hidden"} whileInView={"visible"}>
+                <div className="hidden">
+                  <motion.h3 custom={0.4} variants={textAnimationY}>
+                    Dashboart Project
+                  </motion.h3>
+                </div>
+                <div className="hidden">
+                  <motion.p
+                    className="hidden"
+                    custom={0.5}
+                    variants={textAnimationY}
+                  >
+                    training
                   </motion.p>
                 </div>
               </motion.div>
