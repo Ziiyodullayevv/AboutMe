@@ -50,7 +50,11 @@ const MyWorkLeft = () => {
         <div className="my-work-cards">
           <div className="my-work-card">
             <motion.div initial={"hidden"} whileInView={"visible"}>
-              <a href="https://google.com">
+              <a
+                href="http://https://houziing.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <motion.div variants={textAnimationS} className="card-image">
                   <img className="img" src={houzing} alt="works" />
                 </motion.div>
@@ -81,7 +85,11 @@ const MyWorkLeft = () => {
         <div className="my-work-cards right">
           <div className="my-work-card right">
             <motion.div initial={"hidden"} whileInView={"visible"}>
-              <a href="https://google.com">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://fitnes-club-sport.netlify.app"
+              >
                 <motion.div variants={textAnimationS} className="card-image">
                   <img className="img" src={fitClub} alt="works" />
                 </motion.div>
@@ -147,7 +155,11 @@ const MyWorkLeft = () => {
         <div className="my-work-cards right">
           <div className="my-work-card right">
             <motion.div initial={"hidden"} whileInView={"visible"}>
-              <a href="https://google.com">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://ziiyodullayevv.github.io/Turkish"
+              >
                 <motion.div variants={textAnimationS} className="card-image">
                   <img className="img" src={turkish} alt="works" />
                 </motion.div>
@@ -181,7 +193,7 @@ const MyWorkLeft = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://ziiyodullayevv.github.io/Heart"
+                href="https://yuksalish-academy.netlify.app"
               >
                 <motion.div variants={textAnimationS} className="card-image">
                   <img className="img" src={yuksalish} alt="works" />

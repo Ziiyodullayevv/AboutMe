@@ -20,7 +20,7 @@ const Modal = forwardRef((props, ref) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.3 }}
             className="modal-backdrop"
           />
           <motion.div
@@ -37,14 +37,14 @@ const Modal = forwardRef((props, ref) => {
             initial={{ scale: 0 }}
             exit={{ opacity: 0 }}
             animate={{ scale: 1 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.4 }}
             className="modal-content-wrapper"
           >
             <motion.div
               initial={{ scale: 0 }}
               exit={{ opacity: 0 }}
               animate={{ scale: 1 }}
-              transition={{ duration: 0.6 }}
+              transition={{ duration: 0 }}
               className="modal-content"
             >
               {props.children}

@@ -52,7 +52,7 @@ const Me = () => {
             className="btn-universal p"
           >
             <span className="gold-shadow"></span>
-            download
+            download cv
           </button>
         </div>
         <div className="me-card">
