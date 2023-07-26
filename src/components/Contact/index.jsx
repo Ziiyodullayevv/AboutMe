@@ -45,7 +45,7 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="na">Gmail</label>
-                <input id="na" type="email" />
+                <input className="bottom" id="na" type="email" />
               </div>
             </div>
             <div className="message">

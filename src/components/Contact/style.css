@@ -13,13 +13,16 @@ label {
   font-size: 0.6rem;
 }
 
+.bottom {
+  margin-bottom: 2rem;
+}
+
 input {
   margin-top: 10px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   padding: 15px;
   width: 100%;
   border: none;
-
   outline: none;
   border-bottom: 1px solid var(--gold);
   font-weight: 500;

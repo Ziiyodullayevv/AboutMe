@@ -78,7 +78,7 @@ const Navbar = () => {
   const hamburgerRef = useRef();
 
   // dark-light mode:
-  const [light, setLeght] = useState(false);
+  const [light, setLeght] = useState(true);
   const toggleSwitch = () => setLeght(!light);
 
   // styled-componets:
@@ -119,7 +119,7 @@ const Navbar = () => {
               <img
                 style={{ width: 80 }}
                 src={require("../../assets/icons/logo-ziyo.png")}
-                alt=""
+                alt="logo"
               />
               <div></div>
             </div>

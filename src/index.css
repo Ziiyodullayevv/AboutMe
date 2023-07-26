@@ -447,4 +447,12 @@ a {
     left: 20px !important;
     bottom: 20px !important;
   }
+
+  .global-title.padd {
+    margin-bottom: 1rem !important;
+  }
+
+  .read-more-card p {
+    margin-top: 0px !important;
+  }
 }
