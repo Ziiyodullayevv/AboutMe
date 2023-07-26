@@ -18,7 +18,7 @@ const Me = () => {
 
   // CV download:
 
-  const PDF_FILE_URL = "https://ziyodullayev.netlify.app/webbrain.pdf";
+  const PDF_FILE_URL = "https://ziyodullayev.netlify.app/resume.pdf";
 
   const downloadFileAtURL = (url) => {
     const fileName = url.split("/").pop();
