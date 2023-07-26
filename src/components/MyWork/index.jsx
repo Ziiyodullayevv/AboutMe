@@ -51,7 +51,7 @@ const MyWorkLeft = () => {
           <div className="my-work-card">
             <motion.div initial={"hidden"} whileInView={"visible"}>
               <a
-                href="http://https://houziing.netlify.app"
+                href="https://houziing.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
