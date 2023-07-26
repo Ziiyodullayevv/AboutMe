@@ -435,6 +435,16 @@ a {
   .container-header {
     padding: 0 10px !important;
   }
-}
 
-/* ------------- custom scrollbar --------------- */
+  .header {
+    margin-top: 5px !important;
+  }
+
+  .header-btn {
+    margin-left: 10px;
+  }
+  .read-me {
+    left: 20px !important;
+    bottom: 20px !important;
+  }
+}
